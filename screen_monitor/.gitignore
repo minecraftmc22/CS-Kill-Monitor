@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE
+.idea/
+
+# Runtime files and local settings
+AudioTemp/
+_speed_*.wav
+kill_log.txt
+config.json
+
+# Personal media libraries
+audio/*
+!audio/.gitkeep
+images/*
+!images/.gitkeep
+*.jpg
+*.jpeg
+*.png
+*.wav
+*.mp3
+*.m4a
+
+#AI
+.workbuddy
+

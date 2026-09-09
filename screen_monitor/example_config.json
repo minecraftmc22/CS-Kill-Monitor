@@ -1,0 +1,43 @@
+{
+    "check_rate": 10,
+    "cooldown": 3000,
+    "triggers": [
+        {
+            "name": "像素匹配示例",
+            "type": "pixel",
+            "position": [100, 100],
+            "target_color": [255, 0, 0],
+            "tolerance": 10,
+            "image_path": "images/2f8aab874093d288e56839d89467f76a_720.png",
+            "audio_path": "audio/lv_0_20260807010020.wav",
+            "display_duration": 2000,
+            "pip": {
+                "position": [100, 100],
+                "size": [800, 450],
+                "fullscreen": false,
+                "alpha": 0.7
+            }
+        },
+        {
+            "name": "区域变化示例",
+            "type": "region",
+            "region": {
+                "left": 200,
+                "top": 200,
+                "width": 300,
+                "height": 200
+            },
+            "tolerance": 30,
+            "change_threshold": 0.2,
+            "image_path": "images/980d5eff3a1143f38fa06ea431778013.jpg",
+            "audio_path": "audio/_speed_1.1x.wav",
+            "display_duration": 3000,
+            "pip": {
+                "position": [50, 50],
+                "size": [600, 400],
+                "fullscreen": false,
+                "alpha": 0.8
+            }
+        }
+    ]
+}
